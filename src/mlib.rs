@@ -24,6 +24,14 @@ pub fn get_args() -> Vec<String> {
     args
 }
 
+pub fn get_current_working_dir() -> String {
+    let res = env::current_dir();
+    match res {
+        Ok(path) => path.into_os_string().into_string().unwrap(),
+        Err(_) => "FAILED".to_string()
+    }
+}
+
 pub fn make_and_write_file(path: String, contents: String) {
     let mut file = fs::File::create(path).unwrap();
 

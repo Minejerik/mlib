@@ -1,6 +1,6 @@
 [package]
 name = "mlib"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Minejerik"]
 license = "MIT"
 description = "Minejerik's library used in all of my projects"
