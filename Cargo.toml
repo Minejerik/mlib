@@ -4,6 +4,10 @@ version = "0.1.0"
 authors = ["Minejerik"]
 license = "MIT"
 description = "Minejerik's library used in all of my projects"
+readme = "README.md"
+homepage = "https://github.com/Minejerik/mlib"
+repository = "https://github.com/Minejerik/mlib"
+documentation = "https://github.com/Minejerik/mlib"
 
 edition = "2021"
 
