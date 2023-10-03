@@ -29,3 +29,9 @@ pub fn make_and_write_file(path: String, contents: String) {
 
     file.write_all(contents.as_bytes()).unwrap();
 }
+
+pub fn read_file(path: String) -> String {
+    let contents = fs::read_to_string(path).unwrap();
+
+    contents
+}
